@@ -1,0 +1,35 @@
+#game {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 800px;
+    box-sizing: content-box;
+    border: 1px solid black;
+    top: 200px;
+    left: 300px;
+}
+
+.game-square {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    border: 1px solid grey;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.game-square-mine {
+    border-color: 1px solid red;
+    background-color:red;
+}
+
+#button-new-game {
+    
+    position: relative;
+    display: block;
+    left: 650px;
+    margin-top: 220px;
+    
+}
+
